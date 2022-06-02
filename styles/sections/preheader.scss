@@ -2,12 +2,12 @@ section#preheader{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #0A121F;
+  background: linear-gradient(180deg, #08101D, #09111F);
   height: 100px;
   width: 100%;
   padding: 24px 387px;
-  div{
-    &.icon{
+
+    a.icon{
       display: flex;
       justify-content: space-between;
       align-items: center;
@@ -22,7 +22,7 @@ section#preheader{
         color: #3A68B8;
       }
     }
-    &.menu{
+    .menu{
       display: flex;
       justify-content: space-between;
       align-items: center;
@@ -39,12 +39,14 @@ section#preheader{
         text-decoration: underline;
       }
     }
-  }
+
   button{
     background-color: #3A68B8;
     width: 112px;
     height: 52px;
     border-radius: 5px;
+    font-size: 16px;
+    line-height: 22px;
   }
   button:hover{
     background-color: #5090FF;

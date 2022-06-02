@@ -1,0 +1,104 @@
+section#started{
+  width: 100%;
+  height: 930px;
+  background: linear-gradient(180deg, #08101D, #09111F);
+  padding: 49px 183px 99px 388px;
+  .container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+    width: 100%;
+    height: 100%;
+    .group_1 {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      .Artificial_int {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: start;
+        width: 604px;
+        height: 415px;
+
+        .text {
+          width: 100%;
+          height: 308px;
+          display: flex;
+          flex-direction: column;
+          justify-content: space-between;
+          align-items: start;
+
+          .p1 {
+            font-style: normal;
+            font-size: 18px;
+            line-height: 160%;
+            color: #3A68B8;
+          }
+
+          .p2 {
+            font-style: normal;
+            font-weight: 800;
+            font-size: 55px;
+            line-height: 130%;
+          }
+
+          .p3 {
+            font-style: normal;
+            font-size: 18px;
+            line-height: 160%;
+            color: #B5B7BB;
+          }
+        }
+
+        .buttons {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          width: 408px;
+          height: 57px;
+
+          button {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            height: 57px;
+            background-color: #3A68B8;
+            border-radius: 5px;
+            padding: 15px 30px;
+            font-size: 20px;
+            line-height: 27px;
+          }
+
+          button:hover {
+            background-color: #5090FF;
+          }
+
+          .b1 {
+            width: 171px;
+
+          }
+
+          .b2 {
+            width: 217px;
+          }
+        }
+      }
+
+      .rocket {
+        width: 632px;
+        height: 634px;
+      }
+    }
+    .group_2 {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 1146px;
+      height: 59px;
+    }
+
+  }
+}
