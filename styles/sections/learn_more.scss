@@ -1,0 +1,38 @@
+section#learn_more{
+  width: 100%;
+  height: 969px;
+  padding: 130px 387px 170px 256px;
+  background: linear-gradient(180deg, #08101D, #09111F);
+  .container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    img{
+      width: 725px;
+      height: 669px;
+    }
+    .group{
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: start;
+      width: 100%;
+      height: 314px;
+      .p1{
+        font-weight: 600;
+        font-size: 40px;
+        line-height: 130%;
+      }
+      .p2{
+        font-size: 16px;
+        line-height: 160%;
+        color: #B5B7BB;
+      }
+      button{
+        font-size: 16px;
+        line-height: 22px;
+      }
+    }
+  }
+}

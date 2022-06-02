@@ -1,19 +1,16 @@
-
-@import "./main.scss";
-@import "./footer.scss";
-@import "./header.scss";
-@import "./sections/preheader.scss";
-@import "./sections/main_started.scss";
-
-
+@import "main.scss";
+@import "footer.scss";
+@import "header.scss";
+@import "sections/preheader.scss";
+@import "sections/main_started.scss";
+@import "sections/learn_more.scss";
+@import "sections/cards.scss";
+@import "sections/about_us.scss";
 
 
 
 //Шрифты
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:300,400,700);
-
-
-
 
 
 /*Обнуление*/
@@ -55,4 +52,22 @@ img{vertical-align: top;}
 
 h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 /*--------------------*/
+
+//Прочие стили
+button {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 57px;
+  background-color: #3A68B8;
+  border-radius: 5px;
+  padding: 15px 30px;
+  font-size: 20px;
+  line-height: 27px;
+}
+
+button:hover {
+  background-color: #5090FF;
+}
+
 

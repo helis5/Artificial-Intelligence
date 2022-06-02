@@ -1,0 +1,66 @@
+section#cards{
+  width: 100%;
+  height: 454px;
+  background: linear-gradient(180deg, #08101D, #09111F);
+  .container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: inherit;
+    height: inherit;
+    .cards{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      width: 100%;
+      height: 389px;
+      div{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        width: 362px;
+        height: inherit;
+        background: linear-gradient(180deg, #0D1422, #19202D);
+        border-radius: 10px;
+        padding: 30px;
+        p{
+          text-align: center;
+          color: #B9BBBF;
+        }
+        .p1{
+          font-weight: 600;
+          font-size: 25px;
+          line-height: 125%;
+        }
+        .p2{
+          font-size: 16px;
+          line-height: 160%;
+        }
+      }
+      .special{
+        padding: 68px 30px 30px 30px;
+      }
+    }
+    .points{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 65px;
+      height: 15px;
+      div{
+        width: 15px;
+        height: 15px;
+        border-radius: 50px;
+      }
+      .active{
+        background-color: #2C3647;
+      }
+      .passive{
+        background-color: #172030;
+      }
+    }
+  }
+}
